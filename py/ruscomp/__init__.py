@@ -1,0 +1,2 @@
+from .ruscomp import *
+

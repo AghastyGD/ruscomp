@@ -1,0 +1,20 @@
+[build-system]
+requires = ["maturin>=1.8, <2.0"]
+build-backend = "maturin"
+
+[project]
+name = "ruscomp"
+version = "0.1.0"
+description = "Compression algorithms written in Rust with Python bindings"
+authors = [{ name = "Augusto Domingos", email = "augustodomingosvasco@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Rust",
+    "Operating System :: OS Independent",
+]
+
+[tool.maturin]
+python-source = "py"

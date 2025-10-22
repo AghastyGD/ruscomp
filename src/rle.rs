@@ -1,4 +1,4 @@
-use::pyo3::prelude::*;
+use pyo3::prelude::*;
 
 #[pyfunction]
 pub fn rle_encode(input: &str) -> String {
